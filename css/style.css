@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -15,8 +19,6 @@
 
 .col-25 {
     width: 25%;
-    border: 1px solid black;
-    background-color: orange;
 }
 
 .container-small {
@@ -47,9 +49,8 @@
 
 .col-50 {
     width: 50%;
-    border: 1px dashed black;
-    background-color: orange;
     text-align: center;
+    
 }
 
 .col-60 {
@@ -102,7 +103,7 @@
 
 header {    
     padding: 10px 0;
-    background-color: royalblue;
+    background-color: #3161e0;
 }
 
 footer {
@@ -160,8 +161,11 @@ footer {
 }
 
 .unordered-list li a {
+    font-weight: 500;
      text-decoration: none;
      color: black;
+     padding: 0 20px;
+     color: white;
 }
 
 .padding-10 {
@@ -173,3 +177,16 @@ footer {
 }
 
 /* FINE CLASSI UTILITY */
+
+/* SECONDA PARTE ESERCIZIO: HTMLCSS DISCORD */
+
+.btn {
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-white {
+    background-color: white;
+}
