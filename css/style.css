@@ -103,8 +103,18 @@ body {
 
 header {    
     padding: 10px 0;
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
+
+.colorbianco {
+    color: white;
+}
+
+.paragrafomainuno {
+    line-height: 30px;
+}
+
+.due
 
 footer {
     background-color: darkslategray;
@@ -128,10 +138,6 @@ footer {
     background-color: lightblue;
 }
 
-.bg-darkblue {
-    background-color: #00005d; 
-}
-
 .bg-lightgray {
     background-color: lightgray;
 }
@@ -146,6 +152,10 @@ footer {
 
 .text-left {
     text-align: left;
+}
+
+.testocentrato {
+    text-align: center;
 }
 
 .text-right {
@@ -176,6 +186,10 @@ footer {
     padding: 50px 0;
 }
 
+.paddingbottom-30 {
+    padding-bottom: 30px;
+}
+
 /* FINE CLASSI UTILITY */
 
 /* SECONDA PARTE ESERCIZIO: HTMLCSS DISCORD */
@@ -189,4 +203,27 @@ footer {
 
 .btn-white {
     background-color: white;
+}
+
+.btn-dark {
+    background-color: #23272a;
+    color: white;
+}
+
+.font-sizeM {
+    font-size: medium;
+}
+
+.bg-jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.duebtn {
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    margin: 0 10px;
+    
 }
