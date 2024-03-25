@@ -41,10 +41,7 @@ body {
 }
 
 .col-40 {
-    width: 40%;
-    border: 1px solid black;
-    background-color: lightskyblue;
-    height: 400px;
+    padding: 0 120px;
 }
 
 .col-50 {
@@ -55,8 +52,6 @@ body {
 
 .col-60 {
     width: 60%;
-    border: 1px solid black;
-    background-color: brown;
     height: 400px;
 }
 
@@ -139,7 +134,7 @@ footer {
 }
 
 .bg-lightgray {
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 .bg-green {
@@ -190,6 +185,10 @@ footer {
     padding-bottom: 30px;
 }
 
+.padding-left-50 {
+    padding-left: 50px;
+}
+
 /* FINE CLASSI UTILITY */
 
 /* SECONDA PARTE ESERCIZIO: HTMLCSS DISCORD */
@@ -224,6 +223,50 @@ footer {
     border-radius: 30px;
     padding: 10px 30px;
     border: none;
-    margin: 0 10px;
-    
+    margin: 0 10px;   
+}
+
+/* -- MAIN: 2a SEZIONE -- */
+
+.test-alt {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.h2-testo1 {
+    font-size: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.p-testo1 {
+    font-size: small;
+    padding: 0 115px;
+    line-height: 18px;
+}
+
+.img-sez-alt {
+    width: 100%;
+    height: 80%;
+}
+
+.img-1col60 {
+    padding-top: 30px;
+}
+
+/* -- MAIN: 3a SEZIONE -- */
+
+.h2-testo2 {
+    font-size: 22px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.background-wave {
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    opacity: 40%;
+    align-content: bottom;
 }
